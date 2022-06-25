@@ -16,7 +16,7 @@ const GET_LESSON_QUERY = gql`
 type GetLessonsQueryResponse = {
 	lessons: {
 		id: string
-		title: title
+		title: string
 		slug: string
 		availableAt: string
 		lessonType: 'live' | 'class'
