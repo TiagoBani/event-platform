@@ -1,5 +1,3 @@
-import { DiscordLogo } from 'phosphor-react'
-
 type ButtonParams = {
 	link?: string
 	variant?: 'primary' | 'secondary'
