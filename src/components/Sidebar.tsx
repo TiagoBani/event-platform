@@ -7,6 +7,7 @@ const GET_LESSON_QUERY = gql`
 			id
 			lessonType
 			availableAt
+			slug
 			title
 			stage
 		}
